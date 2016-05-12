@@ -21,11 +21,11 @@ A tokenizer is typically the first thing that a compiler does with its input.  T
 ```Java
    for (int i=0; i<=10; i++) {
 ```
-In this line of code, there are about 32 characters, starting with space, space, space, f, o, r, etc.   However, if we consider the sequence of tokens, there are only 14:
+In this line of code, there are about 32 characters, starting with space, space, space, f, o, r, etc.   However, if we consider the sequence of tokens, there are only 14.  Note that `for` is treated as a single token, as is `<=`.  Whitespace (spaces, tabs, newlines) are discarded.
 
-| 'for'  |  '(' | 'int'  |  'i' | '='  |  '0' | ';'  |
+| `for`  |  `(` | `int`  |  `i` | `=`  |  `0` | `;`  |
 |---|---|---|---|---|---|---|
-| 'i'  |  '<=' |  ';' | 'i'  |  '++' |  ')' | '}'  |
+| `i`  |  `<=` |  `;` | `i`  |  `++` |  `)` | `}`  |
 
 
 There are 
