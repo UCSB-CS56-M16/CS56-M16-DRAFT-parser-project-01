@@ -28,7 +28,10 @@ In this line of code, there are about 32 characters, starting with space, space,
 | `i`  |  `<=` |  `;` | `i`  |  `++` |  `)` | `}`  |
 
 
-There are 
+In the small language  TODO
+
+There are TODO
+
 You'll be implementing parser object with a method `AST parse(String input)` that can take a string as input, and then either throw produce, as output, an Abstract Syntax Tree.
 
 We'll explain what an Abstract Syntax Tree is shortly.
